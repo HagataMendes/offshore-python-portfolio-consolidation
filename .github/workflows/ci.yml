@@ -1,0 +1,89 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  backend:
+    name: Back-end (Python)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: offshore
+          POSTGRES_PASSWORD: offshore
+          POSTGRES_DB: offshore_test
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U offshore"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    env:
+      # Com esta variável, os testes de ingestão rodam também num Postgres de verdade.
+      TEST_DATABASE_URL: postgresql+psycopg://offshore:offshore@localhost:5432/offshore_test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: backend/pyproject.toml
+      - name: Instalar dependências
+        run: pip install -e ".[dev]"
+      - name: Lint (ruff)
+        run: ruff check .
+      - name: Formatação (ruff format)
+        run: ruff format --check .
+      - name: Testes (pytest)
+        run: pytest -v
+      - name: Snapshot do front está atualizado?
+        # A prévia estática do front usa uma cópia das respostas da API. Se a lógica mudar
+        # e ninguém regenerar o snapshot, este passo falha.
+        run: python -m scripts.export_snapshot --check
+
+  frontend:
+    name: Front-end (React)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci
+      - name: Lint (oxlint)
+        run: npm run lint
+      - name: Testes (Vitest)
+        run: npm test
+      - name: Build (TypeScript + Vite)
+        run: npm run build
+
+  docker:
+    name: Imagem Docker e Compose
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validar docker-compose.yml
+        run: docker compose config --quiet
+      - name: Build da imagem do back-end
+        run: docker build -t offshore-backend ./backend
+      - name: A imagem sobe e responde?
+        run: |
+          docker run -d --name api -p 8000:8000 offshore-backend
+          for i in $(seq 1 30); do curl -sf http://localhost:8000/health && exit 0; sleep 1; done
+          docker logs api; exit 1

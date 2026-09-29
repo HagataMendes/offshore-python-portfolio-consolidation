@@ -1,0 +1,81 @@
+# Sobe o projeto inteiro: docker compose up --build
+#
+#   postgres     posições, movimentações, log de arquivos e reconciliação
+#   localstack   AWS local: S3, SQS (+ DLQ), SNS e DynamoDB
+#   aws-setup    cria os recursos e envia os arquivos de setembro dos custodiantes
+#   worker       consome a fila SQS e processa cada arquivo
+#   api          FastAPI em http://localhost:8000/docs
+#   frontend     tela em http://localhost:5173
+
+x-backend-env: &backend-env
+  DATABASE_URL: postgresql+psycopg://offshore:offshore@postgres:5432/offshore
+  USE_AWS: "true"
+  AWS_ENDPOINT_URL: http://localstack:4566
+  AWS_REGION: us-east-1
+  AWS_ACCESS_KEY_ID: test
+  AWS_SECRET_ACCESS_KEY: test
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: offshore
+      POSTGRES_PASSWORD: offshore
+      POSTGRES_DB: offshore
+    ports: ["5432:5432"]
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U offshore"]
+      interval: 3s
+      retries: 20
+
+  localstack:
+    image: localstack/localstack:3.8
+    environment:
+      SERVICES: s3,sqs,sns,dynamodb
+    ports: ["4566:4566"]
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "http://localhost:4566/_localstack/health"]
+      interval: 3s
+      retries: 30
+
+  aws-setup:
+    build: ./backend
+    environment: *backend-env
+    command: sh -c "python -m scripts.bootstrap_aws && python -m scripts.upload_samples"
+    depends_on:
+      localstack: { condition: service_healthy }
+
+  worker:
+    build: ./backend
+    environment: *backend-env
+    command: python -m app.worker
+    restart: on-failure
+    depends_on:
+      postgres: { condition: service_healthy }
+      aws-setup: { condition: service_completed_successfully }
+
+  api:
+    build: ./backend
+    environment:
+      <<: *backend-env
+      CORS_ORIGINS: http://localhost:5173
+    ports: ["8000:8000"]
+    depends_on:
+      postgres: { condition: service_healthy }
+      aws-setup: { condition: service_completed_successfully }
+
+  frontend:
+    image: node:22-alpine
+    working_dir: /app
+    environment:
+      VITE_API_URL: http://localhost:8000
+    command: sh -c "npm ci && npm run dev -- --host 0.0.0.0"
+    ports: ["5173:5173"]
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    depends_on: [api]
+
+volumes:
+  pgdata:
