@@ -1,0 +1,1827 @@
+{
+ "clients": [
+  {
+   "id": "maria",
+   "name": "Maria",
+   "full_name": "Maria Albuquerque",
+   "account": "OFF-20417-3",
+   "risk_profile": "Moderado",
+   "advisor": "Rafael Toledo",
+   "base_currency": "USD",
+   "custodians": [
+    "Pershing",
+    "UBS"
+   ]
+  },
+  {
+   "id": "manoel",
+   "name": "Manoel",
+   "full_name": "Manoel Siqueira",
+   "account": "OFF-31092-8",
+   "risk_profile": "Conservador",
+   "advisor": "Rafael Toledo",
+   "base_currency": "USD",
+   "custodians": [
+    "UBS"
+   ]
+  }
+ ],
+ "portfolio": {
+  "maria": {
+   "client": {
+    "id": "maria",
+    "name": "Maria",
+    "full_name": "Maria Albuquerque",
+    "account": "OFF-20417-3",
+    "risk_profile": "Moderado",
+    "advisor": "Rafael Toledo",
+    "base_currency": "USD",
+    "custodians": [
+     "Pershing",
+     "UBS"
+    ]
+   },
+   "as_of": "2026-09-30",
+   "total_usd": 113994.25,
+   "positions": [
+    {
+     "isin": "US0378331005",
+     "ticker": "AAPL",
+     "name": "Apple Inc.",
+     "asset_class": "renda_variavel",
+     "custodian": "Pershing",
+     "quantity": 100.0,
+     "price": 232.4,
+     "currency": "USD",
+     "fx_rate": 1.0,
+     "market_value_usd": 23240.0
+    },
+    {
+     "isin": "US9229083632",
+     "ticker": "VOO",
+     "name": "Vanguard S&P 500 ETF",
+     "asset_class": "renda_variavel",
+     "custodian": "Pershing",
+     "quantity": 50.0,
+     "price": 548.2,
+     "currency": "USD",
+     "fx_rate": 1.0,
+     "market_value_usd": 27410.0
+    },
+    {
+     "isin": null,
+     "ticker": null,
+     "name": "Caixa em dólar",
+     "asset_class": "caixa",
+     "custodian": "Pershing",
+     "quantity": 4862.5,
+     "price": 1.0,
+     "currency": "USD",
+     "fx_rate": 1.0,
+     "market_value_usd": 4862.5
+    },
+    {
+     "isin": "XS0000000011",
+     "ticker": null,
+     "name": "Título corporativo EUR 3,25% 2029",
+     "asset_class": "renda_fixa",
+     "custodian": "UBS",
+     "quantity": 50000.0,
+     "price": 98.5,
+     "currency": "EUR",
+     "fx_rate": 1.115,
+     "market_value_usd": 54913.75
+    },
+    {
+     "isin": null,
+     "ticker": null,
+     "name": "Caixa em euro",
+     "asset_class": "caixa",
+     "custodian": "UBS",
+     "quantity": 3200.0,
+     "price": 1.0,
+     "currency": "EUR",
+     "fx_rate": 1.115,
+     "market_value_usd": 3568.0
+    }
+   ],
+   "history": [
+    {
+     "date": "2026-08-31",
+     "value_usd": 91389.2,
+     "daily_return": 0.0,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-01",
+     "value_usd": 91331.8,
+     "daily_return": -0.00062808,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-02",
+     "value_usd": 91351.95,
+     "daily_return": 0.00022062,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-03",
+     "value_usd": 91569.03,
+     "daily_return": 0.0023763,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-04",
+     "value_usd": 91875.01,
+     "daily_return": 0.00334152,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-08",
+     "value_usd": 92110.92,
+     "daily_return": 0.00256773,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-09",
+     "value_usd": 92363.95,
+     "daily_return": 0.00274701,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-10",
+     "value_usd": 91757.17,
+     "daily_return": -0.00656945,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-11",
+     "value_usd": 92515.36,
+     "daily_return": 0.00826301,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-14",
+     "value_usd": 92917.63,
+     "daily_return": 0.00434814,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-15",
+     "value_usd": 112517.2,
+     "daily_return": -0.00354621,
+     "external_flow_usd": 20000.0
+    },
+    {
+     "date": "2026-09-16",
+     "value_usd": 112821.98,
+     "daily_return": 0.00270874,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-17",
+     "value_usd": 112614.59,
+     "daily_return": -0.00183821,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-18",
+     "value_usd": 112932.54,
+     "daily_return": 0.00282335,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-21",
+     "value_usd": 112657.44,
+     "daily_return": -0.00243597,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-22",
+     "value_usd": 113591.5,
+     "daily_return": 0.00829115,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-23",
+     "value_usd": 112724.95,
+     "daily_return": -0.00762865,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-24",
+     "value_usd": 113889.58,
+     "daily_return": 0.01033161,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-25",
+     "value_usd": 114458.36,
+     "daily_return": 0.00499414,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-28",
+     "value_usd": 114066.41,
+     "daily_return": -0.00342439,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-29",
+     "value_usd": 114340.73,
+     "daily_return": 0.00240491,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-30",
+     "value_usd": 113994.25,
+     "daily_return": -0.00303024,
+     "external_flow_usd": 0.0
+    }
+   ]
+  },
+  "manoel": {
+   "client": {
+    "id": "manoel",
+    "name": "Manoel",
+    "full_name": "Manoel Siqueira",
+    "account": "OFF-31092-8",
+    "risk_profile": "Conservador",
+    "advisor": "Rafael Toledo",
+    "base_currency": "USD",
+    "custodians": [
+     "UBS"
+    ]
+   },
+   "as_of": "2026-09-30",
+   "total_usd": 146000.0,
+   "positions": [
+    {
+     "isin": "US0000000029",
+     "ticker": null,
+     "name": "T-Note EUA 4,125% 2030",
+     "asset_class": "renda_fixa",
+     "custodian": "UBS",
+     "quantity": 90000.0,
+     "price": 99.2,
+     "currency": "USD",
+     "fx_rate": 1.0,
+     "market_value_usd": 89280.0
+    },
+    {
+     "isin": "US0000000037",
+     "ticker": null,
+     "name": "Título corporativo USD 5% 2028",
+     "asset_class": "renda_fixa",
+     "custodian": "UBS",
+     "quantity": 25000.0,
+     "price": 101.1,
+     "currency": "USD",
+     "fx_rate": 1.0,
+     "market_value_usd": 25275.0
+    },
+    {
+     "isin": "US5949181045",
+     "ticker": "MSFT",
+     "name": "Microsoft Corp.",
+     "asset_class": "renda_variavel",
+     "custodian": "UBS",
+     "quantity": 60.0,
+     "price": 418.5,
+     "currency": "USD",
+     "fx_rate": 1.0,
+     "market_value_usd": 25110.0
+    },
+    {
+     "isin": null,
+     "ticker": null,
+     "name": "Caixa em dólar",
+     "asset_class": "caixa",
+     "custodian": "UBS",
+     "quantity": 6335.0,
+     "price": 1.0,
+     "currency": "USD",
+     "fx_rate": 1.0,
+     "market_value_usd": 6335.0
+    }
+   ],
+   "history": [
+    {
+     "date": "2026-08-31",
+     "value_usd": 204587.2,
+     "daily_return": 0.0,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-01",
+     "value_usd": 204923.2,
+     "daily_return": 0.00164233,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-02",
+     "value_usd": 205490.2,
+     "daily_return": 0.00276689,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-03",
+     "value_usd": 205500.9,
+     "daily_return": 5.207e-05,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-04",
+     "value_usd": 205787.0,
+     "daily_return": 0.00139221,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-08",
+     "value_usd": 205465.5,
+     "daily_return": -0.00156229,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-09",
+     "value_usd": 205860.8,
+     "daily_return": 0.00192392,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-10",
+     "value_usd": 205792.0,
+     "daily_return": -0.00033421,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-11",
+     "value_usd": 206035.3,
+     "daily_return": 0.00118226,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-14",
+     "value_usd": 206374.6,
+     "daily_return": 0.00164681,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-15",
+     "value_usd": 146195.1,
+     "daily_return": -0.00122631,
+     "external_flow_usd": -60000.0
+    },
+    {
+     "date": "2026-09-16",
+     "value_usd": 146504.8,
+     "daily_return": 0.0021184,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-17",
+     "value_usd": 146220.2,
+     "daily_return": -0.0019426,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-18",
+     "value_usd": 145910.1,
+     "daily_return": -0.00212077,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-21",
+     "value_usd": 146362.3,
+     "daily_return": 0.00309917,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-22",
+     "value_usd": 146266.0,
+     "daily_return": -0.00065796,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-23",
+     "value_usd": 145877.2,
+     "daily_return": -0.00265817,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-24",
+     "value_usd": 146156.9,
+     "daily_return": 0.00191737,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-25",
+     "value_usd": 145912.2,
+     "daily_return": -0.00167423,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-28",
+     "value_usd": 145987.3,
+     "daily_return": 0.00051469,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-29",
+     "value_usd": 145925.8,
+     "daily_return": -0.00042127,
+     "external_flow_usd": 0.0
+    },
+    {
+     "date": "2026-09-30",
+     "value_usd": 146000.0,
+     "daily_return": 0.00050848,
+     "external_flow_usd": 0.0
+    }
+   ]
+  }
+ },
+ "statement": {
+  "maria": {
+   "client": {
+    "id": "maria",
+    "name": "Maria",
+    "full_name": "Maria Albuquerque",
+    "account": "OFF-20417-3",
+    "risk_profile": "Moderado",
+    "advisor": "Rafael Toledo",
+    "base_currency": "USD",
+    "custodians": [
+     "Pershing",
+     "UBS"
+    ]
+   },
+   "period_start": "2026-08-31",
+   "period_end": "2026-09-30",
+   "opening_balance_usd": 91389.2,
+   "deposits_usd": 20000.0,
+   "withdrawals_usd": 0.0,
+   "investment_result_usd": 2605.05,
+   "closing_balance_usd": 113994.25,
+   "twr": 0.02641843,
+   "transactions": [
+    {
+     "id": "PSH-PSH091101",
+     "date": "2026-09-11",
+     "custodian": "Pershing",
+     "type": "dividendo",
+     "description": "Dividendo AAPL",
+     "amount_usd": 26.0,
+     "is_external_flow": false
+    },
+    {
+     "id": "PSH-PSH091501",
+     "date": "2026-09-15",
+     "custodian": "Pershing",
+     "type": "deposito",
+     "description": "Depósito recebido",
+     "amount_usd": 20000.0,
+     "is_external_flow": true
+    },
+    {
+     "id": "PSH-PSH091601",
+     "date": "2026-09-16",
+     "custodian": "Pershing",
+     "type": "compra",
+     "description": "Compra de 30 VOO a US$ 536,21",
+     "amount_usd": -16086.3,
+     "is_external_flow": false
+    },
+    {
+     "id": "UBS-42093001",
+     "date": "2026-09-30",
+     "custodian": "UBS",
+     "type": "taxa",
+     "description": "Taxa de custódia",
+     "amount_usd": -16.72,
+     "is_external_flow": false
+    }
+   ]
+  },
+  "manoel": {
+   "client": {
+    "id": "manoel",
+    "name": "Manoel",
+    "full_name": "Manoel Siqueira",
+    "account": "OFF-31092-8",
+    "risk_profile": "Conservador",
+    "advisor": "Rafael Toledo",
+    "base_currency": "USD",
+    "custodians": [
+     "UBS"
+    ]
+   },
+   "period_start": "2026-08-31",
+   "period_end": "2026-09-30",
+   "opening_balance_usd": 204587.2,
+   "deposits_usd": 0.0,
+   "withdrawals_usd": -60000.0,
+   "investment_result_usd": 1412.8,
+   "closing_balance_usd": 146000.0,
+   "twr": 0.00615507,
+   "transactions": [
+    {
+     "id": "UBS-77091401",
+     "date": "2026-09-14",
+     "custodian": "UBS",
+     "type": "venda",
+     "description": "Venda de 60.000 de face de T-Note EUA 4,125% 2030 a 99,63%",
+     "amount_usd": 59778.0,
+     "is_external_flow": false
+    },
+    {
+     "id": "UBS-77091501",
+     "date": "2026-09-15",
+     "custodian": "UBS",
+     "type": "saque",
+     "description": "Saque enviado",
+     "amount_usd": -60000.0,
+     "is_external_flow": true
+    },
+    {
+     "id": "UBS-77092501",
+     "date": "2026-09-25",
+     "custodian": "UBS",
+     "type": "dividendo",
+     "description": "Dividendo MSFT",
+     "amount_usd": 49.8,
+     "is_external_flow": false
+    },
+    {
+     "id": "UBS-77093001",
+     "date": "2026-09-30",
+     "custodian": "UBS",
+     "type": "taxa",
+     "description": "Taxa de custódia",
+     "amount_usd": -20.0,
+     "is_external_flow": false
+    }
+   ]
+  }
+ },
+ "performance": {
+  "maria": {
+   "client": {
+    "id": "maria",
+    "name": "Maria",
+    "full_name": "Maria Albuquerque",
+    "account": "OFF-20417-3",
+    "risk_profile": "Moderado",
+    "advisor": "Rafael Toledo",
+    "base_currency": "USD",
+    "custodians": [
+     "Pershing",
+     "UBS"
+    ]
+   },
+   "period_start": "2026-08-31",
+   "period_end": "2026-09-30",
+   "twr": 0.02641843,
+   "naive_return": 0.24734925,
+   "sub_periods": [
+    {
+     "start": "2026-08-31",
+     "end": "2026-09-14",
+     "return": 0.01672441,
+     "flow_before_usd": 0.0
+    },
+    {
+     "start": "2026-09-14",
+     "end": "2026-09-30",
+     "return": 0.00953456,
+     "flow_before_usd": 20000.0
+    }
+   ],
+   "monthly": [
+    {
+     "month": "2026-01",
+     "twr": 0.011
+    },
+    {
+     "month": "2026-02",
+     "twr": -0.0045
+    },
+    {
+     "month": "2026-03",
+     "twr": 0.008
+    },
+    {
+     "month": "2026-04",
+     "twr": 0.0135
+    },
+    {
+     "month": "2026-05",
+     "twr": -0.006
+    },
+    {
+     "month": "2026-06",
+     "twr": 0.0095
+    },
+    {
+     "month": "2026-07",
+     "twr": 0.012
+    },
+    {
+     "month": "2026-08",
+     "twr": 0.004
+    },
+    {
+     "month": "2026-09",
+     "twr": 0.02641843
+    }
+   ],
+   "ytd_twr": 0.07598961
+  },
+  "manoel": {
+   "client": {
+    "id": "manoel",
+    "name": "Manoel",
+    "full_name": "Manoel Siqueira",
+    "account": "OFF-31092-8",
+    "risk_profile": "Conservador",
+    "advisor": "Rafael Toledo",
+    "base_currency": "USD",
+    "custodians": [
+     "UBS"
+    ]
+   },
+   "period_start": "2026-08-31",
+   "period_end": "2026-09-30",
+   "twr": 0.00615507,
+   "naive_return": -0.28636787,
+   "sub_periods": [
+    {
+     "start": "2026-08-31",
+     "end": "2026-09-14",
+     "return": 0.00873662,
+     "flow_before_usd": 0.0
+    },
+    {
+     "start": "2026-09-14",
+     "end": "2026-09-30",
+     "return": -0.00255919,
+     "flow_before_usd": -60000.0
+    }
+   ],
+   "monthly": [
+    {
+     "month": "2026-01",
+     "twr": 0.0065
+    },
+    {
+     "month": "2026-02",
+     "twr": 0.003
+    },
+    {
+     "month": "2026-03",
+     "twr": -0.002
+    },
+    {
+     "month": "2026-04",
+     "twr": 0.009
+    },
+    {
+     "month": "2026-05",
+     "twr": 0.0055
+    },
+    {
+     "month": "2026-06",
+     "twr": 0.004
+    },
+    {
+     "month": "2026-07",
+     "twr": 0.0075
+    },
+    {
+     "month": "2026-08",
+     "twr": 0.005
+    },
+    {
+     "month": "2026-09",
+     "twr": 0.00615507
+    }
+   ],
+   "ytd_twr": 0.04551013
+  }
+ },
+ "ingested_files": [
+  {
+   "id": "f-053",
+   "file_name": "ubs_positions_20260930.json",
+   "custodian": "UBS",
+   "format": "JSON",
+   "received_at": "2026-10-01T07:40:00",
+   "status": "processado",
+   "records": 6,
+   "duration_ms": 1,
+   "correlation_id": "85eff6d5",
+   "error": null
+  },
+  {
+   "id": "f-052",
+   "file_name": "ubs_transactions_20260930.json",
+   "custodian": "UBS",
+   "format": "JSON",
+   "received_at": "2026-10-01T07:38:00",
+   "status": "processado",
+   "records": 2,
+   "duration_ms": 1,
+   "correlation_id": "14c6157b",
+   "error": null
+  },
+  {
+   "id": "f-051",
+   "file_name": "pershing_positions_20260930.csv",
+   "custodian": "Pershing",
+   "format": "CSV",
+   "received_at": "2026-10-01T07:16:00",
+   "status": "duplicado",
+   "records": 0,
+   "duration_ms": 1,
+   "correlation_id": "4036b50b",
+   "error": null
+  },
+  {
+   "id": "f-050",
+   "file_name": "pershing_positions_20260930.csv",
+   "custodian": "Pershing",
+   "format": "CSV",
+   "received_at": "2026-10-01T07:15:00",
+   "status": "processado",
+   "records": 3,
+   "duration_ms": 1,
+   "correlation_id": "e1f8ee91",
+   "error": null
+  },
+  {
+   "id": "f-049",
+   "file_name": "ubs_positions_20260929.json",
+   "custodian": "UBS",
+   "format": "JSON",
+   "received_at": "2026-09-30T08:05:00",
+   "status": "processado",
+   "records": 6,
+   "duration_ms": 1,
+   "correlation_id": "b8cb9651",
+   "error": null
+  },
+  {
+   "id": "f-048",
+   "file_name": "ubs_positions_20260929.json",
+   "custodian": "UBS",
+   "format": "JSON",
+   "received_at": "2026-09-30T07:39:00",
+   "status": "erro_dlq",
+   "records": 0,
+   "duration_ms": 1,
+   "correlation_id": "5e77805d",
+   "error": "Campo obrigatório \"asOf\" ausente no arquivo"
+  },
+  {
+   "id": "f-047",
+   "file_name": "pershing_positions_20260929.csv",
+   "custodian": "Pershing",
+   "format": "CSV",
+   "received_at": "2026-09-30T07:15:00",
+   "status": "processado",
+   "records": 3,
+   "duration_ms": 1,
+   "correlation_id": "ee0e1a34",
+   "error": null
+  },
+  {
+   "id": "f-046",
+   "file_name": "ubs_positions_20260928.json",
+   "custodian": "UBS",
+   "format": "JSON",
+   "received_at": "2026-09-29T07:40:00",
+   "status": "processado",
+   "records": 6,
+   "duration_ms": 1,
+   "correlation_id": "bbee07a0",
+   "error": null
+  },
+  {
+   "id": "f-045",
+   "file_name": "pershing_positions_20260928.csv",
+   "custodian": "Pershing",
+   "format": "CSV",
+   "received_at": "2026-09-29T07:15:00",
+   "status": "processado",
+   "records": 3,
+   "duration_ms": 1,
+   "correlation_id": "4724bff5",
+   "error": null
+  },
+  {
+   "id": "f-044",
+   "file_name": "ubs_positions_20260925.json",
+   "custodian": "UBS",
+   "format": "JSON",
+   "received_at": "2026-09-28T07:40:00",
+   "status": "processado",
+   "records": 6,
+   "duration_ms": 1,
+   "correlation_id": "541b07de",
+   "error": null
+  },
+  {
+   "id": "f-043",
+   "file_name": "ubs_transactions_20260925.json",
+   "custodian": "UBS",
+   "format": "JSON",
+   "received_at": "2026-09-28T07:38:00",
+   "status": "processado",
+   "records": 1,
+   "duration_ms": 1,
+   "correlation_id": "18e6fc55",
+   "error": null
+  },
+  {
+   "id": "f-042",
+   "file_name": "pershing_positions_20260925.csv",
+   "custodian": "Pershing",
+   "format": "CSV",
+   "received_at": "2026-09-28T07:15:00",
+   "status": "processado",
+   "records": 3,
+   "duration_ms": 1,
+   "correlation_id": "3cf81dcc",
+   "error": null
+  },
+  {
+   "id": "f-041",
+   "file_name": "ubs_positions_20260924.json",
+   "custodian": "UBS",
+   "format": "JSON",
+   "received_at": "2026-09-25T07:40:00",
+   "status": "processado",
+   "records": 6,
+   "duration_ms": 1,
+   "correlation_id": "d74942d0",
+   "error": null
+  },
+  {
+   "id": "f-040",
+   "file_name": "pershing_positions_20260924.csv",
+   "custodian": "Pershing",
+   "format": "CSV",
+   "received_at": "2026-09-25T07:15:00",
+   "status": "processado",
+   "records": 3,
+   "duration_ms": 1,
+   "correlation_id": "693c2752",
+   "error": null
+  },
+  {
+   "id": "f-039",
+   "file_name": "ubs_positions_20260923.json",
+   "custodian": "UBS",
+   "format": "JSON",
+   "received_at": "2026-09-24T07:40:00",
+   "status": "processado",
+   "records": 6,
+   "duration_ms": 1,
+   "correlation_id": "a0c678db",
+   "error": null
+  },
+  {
+   "id": "f-038",
+   "file_name": "pershing_positions_20260923.csv",
+   "custodian": "Pershing",
+   "format": "CSV",
+   "received_at": "2026-09-24T07:15:00",
+   "status": "processado",
+   "records": 3,
+   "duration_ms": 1,
+   "correlation_id": "957a9f74",
+   "error": null
+  },
+  {
+   "id": "f-037",
+   "file_name": "ubs_positions_20260922.json",
+   "custodian": "UBS",
+   "format": "JSON",
+   "received_at": "2026-09-23T07:40:00",
+   "status": "processado",
+   "records": 6,
+   "duration_ms": 1,
+   "correlation_id": "3232c6a3",
+   "error": null
+  },
+  {
+   "id": "f-036",
+   "file_name": "pershing_positions_20260922.csv",
+   "custodian": "Pershing",
+   "format": "CSV",
+   "received_at": "2026-09-23T07:15:00",
+   "status": "processado",
+   "records": 3,
+   "duration_ms": 1,
+   "correlation_id": "68d477e3",
+   "error": null
+  },
+  {
+   "id": "f-035",
+   "file_name": "ubs_positions_20260921.json",
+   "custodian": "UBS",
+   "format": "JSON",
+   "received_at": "2026-09-22T07:40:00",
+   "status": "processado",
+   "records": 6,
+   "duration_ms": 1,
+   "correlation_id": "0df145fb",
+   "error": null
+  },
+  {
+   "id": "f-034",
+   "file_name": "pershing_positions_20260921.csv",
+   "custodian": "Pershing",
+   "format": "CSV",
+   "received_at": "2026-09-22T07:15:00",
+   "status": "processado",
+   "records": 3,
+   "duration_ms": 1,
+   "correlation_id": "0ddc9b75",
+   "error": null
+  },
+  {
+   "id": "f-033",
+   "file_name": "ubs_positions_20260918.json",
+   "custodian": "UBS",
+   "format": "JSON",
+   "received_at": "2026-09-21T07:40:00",
+   "status": "processado",
+   "records": 6,
+   "duration_ms": 1,
+   "correlation_id": "a6e4ebff",
+   "error": null
+  },
+  {
+   "id": "f-032",
+   "file_name": "pershing_positions_20260918.csv",
+   "custodian": "Pershing",
+   "format": "CSV",
+   "received_at": "2026-09-21T07:15:00",
+   "status": "processado",
+   "records": 3,
+   "duration_ms": 1,
+   "correlation_id": "cf7689da",
+   "error": null
+  },
+  {
+   "id": "f-031",
+   "file_name": "ubs_positions_20260917.json",
+   "custodian": "UBS",
+   "format": "JSON",
+   "received_at": "2026-09-18T07:40:00",
+   "status": "processado",
+   "records": 6,
+   "duration_ms": 1,
+   "correlation_id": "b442993b",
+   "error": null
+  },
+  {
+   "id": "f-030",
+   "file_name": "pershing_positions_20260917.csv",
+   "custodian": "Pershing",
+   "format": "CSV",
+   "received_at": "2026-09-18T07:15:00",
+   "status": "processado",
+   "records": 3,
+   "duration_ms": 1,
+   "correlation_id": "bd3508c3",
+   "error": null
+  },
+  {
+   "id": "f-029",
+   "file_name": "ubs_positions_20260916.json",
+   "custodian": "UBS",
+   "format": "JSON",
+   "received_at": "2026-09-17T07:40:00",
+   "status": "processado",
+   "records": 6,
+   "duration_ms": 1,
+   "correlation_id": "11a0e7d8",
+   "error": null
+  },
+  {
+   "id": "f-028",
+   "file_name": "pershing_positions_20260916.csv",
+   "custodian": "Pershing",
+   "format": "CSV",
+   "received_at": "2026-09-17T07:15:00",
+   "status": "processado",
+   "records": 3,
+   "duration_ms": 1,
+   "correlation_id": "160aba83",
+   "error": null
+  },
+  {
+   "id": "f-027",
+   "file_name": "pershing_transactions_20260916.csv",
+   "custodian": "Pershing",
+   "format": "CSV",
+   "received_at": "2026-09-17T07:10:00",
+   "status": "processado",
+   "records": 1,
+   "duration_ms": 1,
+   "correlation_id": "ff85af63",
+   "error": null
+  },
+  {
+   "id": "f-026",
+   "file_name": "ubs_positions_20260915.json",
+   "custodian": "UBS",
+   "format": "JSON",
+   "received_at": "2026-09-16T07:40:00",
+   "status": "processado",
+   "records": 6,
+   "duration_ms": 1,
+   "correlation_id": "2206ad98",
+   "error": null
+  },
+  {
+   "id": "f-025",
+   "file_name": "ubs_transactions_20260915.json",
+   "custodian": "UBS",
+   "format": "JSON",
+   "received_at": "2026-09-16T07:38:00",
+   "status": "processado",
+   "records": 1,
+   "duration_ms": 1,
+   "correlation_id": "e8544037",
+   "error": null
+  },
+  {
+   "id": "f-024",
+   "file_name": "pershing_positions_20260915.csv",
+   "custodian": "Pershing",
+   "format": "CSV",
+   "received_at": "2026-09-16T07:15:00",
+   "status": "processado",
+   "records": 3,
+   "duration_ms": 1,
+   "correlation_id": "057ba0d5",
+   "error": null
+  },
+  {
+   "id": "f-023",
+   "file_name": "pershing_transactions_20260915.csv",
+   "custodian": "Pershing",
+   "format": "CSV",
+   "received_at": "2026-09-16T07:10:00",
+   "status": "processado",
+   "records": 1,
+   "duration_ms": 1,
+   "correlation_id": "564d74ba",
+   "error": null
+  },
+  {
+   "id": "f-022",
+   "file_name": "ubs_transactions_20260914.json",
+   "custodian": "UBS",
+   "format": "JSON",
+   "received_at": "2026-09-15T10:12:00",
+   "status": "processado",
+   "records": 1,
+   "duration_ms": 1,
+   "correlation_id": "7a90fbdd",
+   "error": null
+  },
+  {
+   "id": "f-021",
+   "file_name": "ubs_positions_20260914.json",
+   "custodian": "UBS",
+   "format": "JSON",
+   "received_at": "2026-09-15T07:40:00",
+   "status": "processado",
+   "records": 6,
+   "duration_ms": 1,
+   "correlation_id": "388cdd46",
+   "error": null
+  },
+  {
+   "id": "f-020",
+   "file_name": "pershing_positions_20260914.csv",
+   "custodian": "Pershing",
+   "format": "CSV",
+   "received_at": "2026-09-15T07:15:00",
+   "status": "processado",
+   "records": 3,
+   "duration_ms": 1,
+   "correlation_id": "a8414e0c",
+   "error": null
+  },
+  {
+   "id": "f-019",
+   "file_name": "ubs_positions_20260911.json",
+   "custodian": "UBS",
+   "format": "JSON",
+   "received_at": "2026-09-14T07:40:00",
+   "status": "processado",
+   "records": 6,
+   "duration_ms": 1,
+   "correlation_id": "17ddce54",
+   "error": null
+  },
+  {
+   "id": "f-018",
+   "file_name": "pershing_positions_20260911.csv",
+   "custodian": "Pershing",
+   "format": "CSV",
+   "received_at": "2026-09-14T07:15:00",
+   "status": "processado",
+   "records": 3,
+   "duration_ms": 1,
+   "correlation_id": "764eb13b",
+   "error": null
+  },
+  {
+   "id": "f-017",
+   "file_name": "pershing_transactions_20260911.csv",
+   "custodian": "Pershing",
+   "format": "CSV",
+   "received_at": "2026-09-14T07:10:00",
+   "status": "processado",
+   "records": 1,
+   "duration_ms": 1,
+   "correlation_id": "1e8fd085",
+   "error": null
+  },
+  {
+   "id": "f-016",
+   "file_name": "ubs_positions_20260910.json",
+   "custodian": "UBS",
+   "format": "JSON",
+   "received_at": "2026-09-11T07:40:00",
+   "status": "processado",
+   "records": 6,
+   "duration_ms": 1,
+   "correlation_id": "a8ac9179",
+   "error": null
+  },
+  {
+   "id": "f-015",
+   "file_name": "pershing_positions_20260910.csv",
+   "custodian": "Pershing",
+   "format": "CSV",
+   "received_at": "2026-09-11T07:15:00",
+   "status": "processado",
+   "records": 3,
+   "duration_ms": 1,
+   "correlation_id": "88234f8e",
+   "error": null
+  },
+  {
+   "id": "f-014",
+   "file_name": "ubs_positions_20260909.json",
+   "custodian": "UBS",
+   "format": "JSON",
+   "received_at": "2026-09-10T07:40:00",
+   "status": "processado",
+   "records": 6,
+   "duration_ms": 1,
+   "correlation_id": "d44e749f",
+   "error": null
+  },
+  {
+   "id": "f-013",
+   "file_name": "pershing_positions_20260909.csv",
+   "custodian": "Pershing",
+   "format": "CSV",
+   "received_at": "2026-09-10T07:15:00",
+   "status": "processado",
+   "records": 3,
+   "duration_ms": 1,
+   "correlation_id": "f64de57d",
+   "error": null
+  },
+  {
+   "id": "f-012",
+   "file_name": "ubs_positions_20260908.json",
+   "custodian": "UBS",
+   "format": "JSON",
+   "received_at": "2026-09-09T07:40:00",
+   "status": "processado",
+   "records": 6,
+   "duration_ms": 1,
+   "correlation_id": "cb4a6b09",
+   "error": null
+  },
+  {
+   "id": "f-011",
+   "file_name": "pershing_positions_20260908.csv",
+   "custodian": "Pershing",
+   "format": "CSV",
+   "received_at": "2026-09-09T07:15:00",
+   "status": "processado",
+   "records": 3,
+   "duration_ms": 1,
+   "correlation_id": "ef7c3237",
+   "error": null
+  },
+  {
+   "id": "f-010",
+   "file_name": "ubs_positions_20260904.json",
+   "custodian": "UBS",
+   "format": "JSON",
+   "received_at": "2026-09-08T07:40:00",
+   "status": "processado",
+   "records": 6,
+   "duration_ms": 1,
+   "correlation_id": "58b5c9df",
+   "error": null
+  },
+  {
+   "id": "f-009",
+   "file_name": "pershing_positions_20260904.csv",
+   "custodian": "Pershing",
+   "format": "CSV",
+   "received_at": "2026-09-08T07:15:00",
+   "status": "processado",
+   "records": 3,
+   "duration_ms": 1,
+   "correlation_id": "cf58fc94",
+   "error": null
+  },
+  {
+   "id": "f-008",
+   "file_name": "ubs_positions_20260903.json",
+   "custodian": "UBS",
+   "format": "JSON",
+   "received_at": "2026-09-04T07:40:00",
+   "status": "processado",
+   "records": 6,
+   "duration_ms": 1,
+   "correlation_id": "2666aa09",
+   "error": null
+  },
+  {
+   "id": "f-007",
+   "file_name": "pershing_positions_20260903.csv",
+   "custodian": "Pershing",
+   "format": "CSV",
+   "received_at": "2026-09-04T07:15:00",
+   "status": "processado",
+   "records": 3,
+   "duration_ms": 1,
+   "correlation_id": "5164ddab",
+   "error": null
+  },
+  {
+   "id": "f-006",
+   "file_name": "ubs_positions_20260902.json",
+   "custodian": "UBS",
+   "format": "JSON",
+   "received_at": "2026-09-03T07:40:00",
+   "status": "processado",
+   "records": 6,
+   "duration_ms": 1,
+   "correlation_id": "7d3903e8",
+   "error": null
+  },
+  {
+   "id": "f-005",
+   "file_name": "pershing_positions_20260902.csv",
+   "custodian": "Pershing",
+   "format": "CSV",
+   "received_at": "2026-09-03T07:15:00",
+   "status": "processado",
+   "records": 3,
+   "duration_ms": 1,
+   "correlation_id": "8c9c28d9",
+   "error": null
+  },
+  {
+   "id": "f-004",
+   "file_name": "ubs_positions_20260901.json",
+   "custodian": "UBS",
+   "format": "JSON",
+   "received_at": "2026-09-02T07:40:00",
+   "status": "processado",
+   "records": 6,
+   "duration_ms": 1,
+   "correlation_id": "df1411ed",
+   "error": null
+  },
+  {
+   "id": "f-003",
+   "file_name": "pershing_positions_20260901.csv",
+   "custodian": "Pershing",
+   "format": "CSV",
+   "received_at": "2026-09-02T07:15:00",
+   "status": "processado",
+   "records": 3,
+   "duration_ms": 1,
+   "correlation_id": "8c371bc4",
+   "error": null
+  },
+  {
+   "id": "f-002",
+   "file_name": "ubs_positions_20260831.json",
+   "custodian": "UBS",
+   "format": "JSON",
+   "received_at": "2026-09-01T07:40:00",
+   "status": "processado",
+   "records": 6,
+   "duration_ms": 1,
+   "correlation_id": "56f6c0cc",
+   "error": null
+  },
+  {
+   "id": "f-001",
+   "file_name": "pershing_positions_20260831.csv",
+   "custodian": "Pershing",
+   "format": "CSV",
+   "received_at": "2026-09-01T07:15:00",
+   "status": "processado",
+   "records": 3,
+   "duration_ms": 2,
+   "correlation_id": "ce6aca9e",
+   "error": null
+  }
+ ],
+ "reconciliation_breaks": [
+  {
+   "id": "rb-3",
+   "date": "2026-09-22",
+   "client_id": "maria",
+   "custodian": "Pershing",
+   "asset": "VOO",
+   "expected_quantity": 50.0,
+   "reported_quantity": 52.0,
+   "status": "aberta",
+   "note": "Custodiante reportou 2 a mais sem movimentação correspondente"
+  },
+  {
+   "id": "rb-1",
+   "date": "2026-09-14",
+   "client_id": "manoel",
+   "custodian": "UBS",
+   "asset": "Caixa em dólar",
+   "expected_quantity": 6527.2,
+   "reported_quantity": 66305.2,
+   "status": "resolvida",
+   "note": "Arquivo de movimentações de 14/09 chegou atrasado; a posição bateu após o reprocessamento"
+  },
+  {
+   "id": "rb-2",
+   "date": "2026-09-14",
+   "client_id": "manoel",
+   "custodian": "UBS",
+   "asset": "T-Note EUA 4,125% 2030",
+   "expected_quantity": 150000.0,
+   "reported_quantity": 90000.0,
+   "status": "resolvida",
+   "note": "Arquivo de movimentações de 14/09 chegou atrasado; a posição bateu após o reprocessamento"
+  }
+ ],
+ "analytics": {
+  "as_of": "2026-09-30",
+  "period_start": "2026-08-31",
+  "total_aum_usd": 259994.25,
+  "risk_free_annual": 0.045,
+  "clients": [
+   {
+    "client_id": "maria",
+    "name": "Maria",
+    "full_name": "Maria Albuquerque",
+    "risk_profile": "Moderado",
+    "aum_usd": 113994.25,
+    "net_flows_usd": 20000.0,
+    "twr": 0.026418418803276555,
+    "volatility_annual": 0.07540552943517835,
+    "max_drawdown": -0.007628756896158273,
+    "sharpe": 3.5913072147189458,
+    "best_day": "2026-09-24",
+    "best_day_return": 0.010331643893624065,
+    "worst_day": "2026-09-23",
+    "worst_day_return": -0.007628756896158162,
+    "positive_days": 13,
+    "days": 21,
+    "top_position": "Título corporativo EUR 3,25% 2029",
+    "top_weight": 0.48172385887884694,
+    "hhi": 0.33423656066426854,
+    "effective_positions": 2.9918929216258676,
+    "positions": 5,
+    "foreign_currency_weight": 0.5130236832120918,
+    "shock": -0.1,
+    "shock_impact_usd": -5848.175,
+    "shock_impact_pct": -0.051302368321209185,
+    "by_asset_class": [
+     {
+      "key": "renda_fixa",
+      "label": "Renda fixa",
+      "value_usd": 54913.75,
+      "weight": 0.48172385887884694
+     },
+     {
+      "key": "renda_variavel",
+      "label": "Renda variável",
+      "value_usd": 50650.0,
+      "weight": 0.4443206565243422
+     },
+     {
+      "key": "caixa",
+      "label": "Caixa",
+      "value_usd": 8430.5,
+      "weight": 0.0739554845968108
+     }
+    ],
+    "by_currency": [
+     {
+      "key": "EUR",
+      "label": "EUR",
+      "value_usd": 58481.75,
+      "weight": 0.5130236832120918
+     },
+     {
+      "key": "USD",
+      "label": "USD",
+      "value_usd": 55512.5,
+      "weight": 0.48697631678790815
+     }
+    ]
+   },
+   {
+    "client_id": "manoel",
+    "name": "Manoel",
+    "full_name": "Manoel Siqueira",
+    "risk_profile": "Conservador",
+    "aum_usd": 146000.0,
+    "net_flows_usd": -60000.0,
+    "twr": 0.006155071134054779,
+    "volatility_annual": 0.02735609491086751,
+    "max_drawdown": -0.004283818687169094,
+    "sharpe": 1.0601488346760841,
+    "best_day": "2026-09-21",
+    "best_day_return": 0.003099168597650026,
+    "worst_day": "2026-09-23",
+    "worst_day_return": -0.0026581707300397106,
+    "positive_days": 12,
+    "days": 21,
+    "top_position": "T-Note EUA 4,125% 2030",
+    "top_weight": 0.6115068493150685,
+    "hhi": 0.43537194361043347,
+    "effective_positions": 2.296886638370042,
+    "positions": 4,
+    "foreign_currency_weight": 0.0,
+    "shock": -0.1,
+    "shock_impact_usd": -0.0,
+    "shock_impact_pct": -0.0,
+    "by_asset_class": [
+     {
+      "key": "renda_fixa",
+      "label": "Renda fixa",
+      "value_usd": 114555.0,
+      "weight": 0.7846232876712329
+     },
+     {
+      "key": "renda_variavel",
+      "label": "Renda variável",
+      "value_usd": 25110.0,
+      "weight": 0.171986301369863
+     },
+     {
+      "key": "caixa",
+      "label": "Caixa",
+      "value_usd": 6335.0,
+      "weight": 0.043390410958904106
+     }
+    ],
+    "by_currency": [
+     {
+      "key": "USD",
+      "label": "USD",
+      "value_usd": 146000.0,
+      "weight": 1.0
+     }
+    ]
+   }
+  ],
+  "allocation": {
+   "by_asset_class": [
+    {
+     "key": "renda_fixa",
+     "label": "Renda fixa",
+     "value_usd": 169468.75,
+     "weight": 0.6518172998056688
+    },
+    {
+     "key": "renda_variavel",
+     "label": "Renda variável",
+     "value_usd": 75760.0,
+     "weight": 0.29139105960997214
+    },
+    {
+     "key": "caixa",
+     "label": "Caixa",
+     "value_usd": 14765.5,
+     "weight": 0.05679164058435908
+    }
+   ],
+   "by_currency": [
+    {
+     "key": "USD",
+     "label": "USD",
+     "value_usd": 201512.5,
+     "weight": 0.7750652177884704
+    },
+    {
+     "key": "EUR",
+     "label": "EUR",
+     "value_usd": 58481.75,
+     "weight": 0.22493478221152968
+    }
+   ],
+   "by_custodian": [
+    {
+     "key": "UBS",
+     "label": "UBS",
+     "value_usd": 204481.75,
+     "weight": 0.7864856626636936
+    },
+    {
+     "key": "Pershing",
+     "label": "Pershing",
+     "value_usd": 55512.5,
+     "weight": 0.21351433733630648
+    }
+   ]
+  },
+  "contributions": {
+   "maria": [
+    {
+     "label": "AAPL",
+     "contribution": 0.01349612803870196
+    },
+    {
+     "label": "VOO",
+     "contribution": 0.008571793080998997
+    },
+    {
+     "label": "Título corporativo EUR 3,25% 2029",
+     "contribution": 0.0041123234993178095
+    },
+    {
+     "label": "Caixa em euro",
+     "contribution": -6.131337151004591e-05
+    },
+    {
+     "label": "Outros efeitos",
+     "contribution": 0.0002994875557678356
+    }
+   ],
+   "manoel": [
+    {
+     "label": "MSFT",
+     "contribution": 0.00528525509396338
+    },
+    {
+     "label": "T-Note EUA 4,125% 2030",
+     "contribution": 0.0007202441616454551
+    },
+    {
+     "label": "Título corporativo USD 5% 2028",
+     "contribution": -4.2378677334015474e-05
+    },
+    {
+     "label": "Outros efeitos",
+     "contribution": 0.00019195055577996
+    }
+   ]
+  },
+  "drawdown": {
+   "manoel": [
+    {
+     "date": "2026-08-31",
+     "twr_index": 1.0,
+     "drawdown": 0.0
+    },
+    {
+     "date": "2026-09-01",
+     "twr_index": 1.0016423314850587,
+     "drawdown": 0.0
+    },
+    {
+     "date": "2026-09-02",
+     "twr_index": 1.0044137658660954,
+     "drawdown": 0.0
+    },
+    {
+     "date": "2026-09-03",
+     "twr_index": 1.0044660663032685,
+     "drawdown": 0.0
+    },
+    {
+     "date": "2026-09-04",
+     "twr_index": 1.0058644920112305,
+     "drawdown": 0.0
+    },
+    {
+     "date": "2026-09-08",
+     "twr_index": 1.0042930349503782,
+     "drawdown": -0.0015622949943387976
+    },
+    {
+     "date": "2026-09-09",
+     "twr_index": 1.0062252183909846,
+     "drawdown": 0.0
+    },
+    {
+     "date": "2026-09-10",
+     "twr_index": 1.0058889314678534,
+     "drawdown": -0.0003342064152087598
+    },
+    {
+     "date": "2026-09-11",
+     "twr_index": 1.0070781554271238,
+     "drawdown": 0.0
+    },
+    {
+     "date": "2026-09-14",
+     "twr_index": 1.0087366169535534,
+     "drawdown": 0.0
+    },
+    {
+     "date": "2026-09-15",
+     "twr_index": 1.0074995975339058,
+     "drawdown": -0.001226305656855664
+    },
+    {
+     "date": "2026-09-16",
+     "twr_index": 1.009633886749866,
+     "drawdown": 0.0
+    },
+    {
+     "date": "2026-09-17",
+     "twr_index": 1.0076725735084637,
+     "drawdown": -0.0019425984677633457
+    },
+    {
+     "date": "2026-09-18",
+     "twr_index": 1.0055355277032674,
+     "drawdown": -0.004059252666124058
+    },
+    {
+     "date": "2026-09-21",
+     "twr_index": 1.0086518518345469,
+     "drawdown": -0.0009726643768667165
+    },
+    {
+     "date": "2026-09-22",
+     "twr_index": 1.007988202975984,
+     "drawdown": -0.0016299807241808573
+    },
+    {
+     "date": "2026-09-23",
+     "twr_index": 1.0053087982386077,
+     "drawdown": -0.004283818687169094
+    },
+    {
+     "date": "2026-09-24",
+     "twr_index": 1.0072363432618692,
+     "drawdown": -0.0023746662225401227
+    },
+    {
+     "date": "2026-09-25",
+     "twr_index": 1.0055499997967563,
+     "drawdown": -0.004044918664780739
+    },
+    {
+     "date": "2026-09-28",
+     "twr_index": 1.006067549425812,
+     "drawdown": -0.003532307473884888
+    },
+    {
+     "date": "2026-09-29",
+     "twr_index": 1.0056437238307796,
+     "drawdown": -0.003952088941795773
+    },
+    {
+     "date": "2026-09-30",
+     "twr_index": 1.0061550711340548,
+     "drawdown": -0.003445620894332202
+    }
+   ],
+   "maria": [
+    {
+     "date": "2026-08-31",
+     "twr_index": 1.0,
+     "drawdown": 0.0
+    },
+    {
+     "date": "2026-09-01",
+     "twr_index": 0.9993719170317719,
+     "drawdown": -0.0006280829682281386
+    },
+    {
+     "date": "2026-09-02",
+     "twr_index": 0.999592408074477,
+     "drawdown": -0.0004075919255229765
+    },
+    {
+     "date": "2026-09-03",
+     "twr_index": 1.0019676723288966,
+     "drawdown": 0.0
+    },
+    {
+     "date": "2026-09-04",
+     "twr_index": 1.0053158141224565,
+     "drawdown": 0.0
+    },
+    {
+     "date": "2026-09-08",
+     "twr_index": 1.0078972132374502,
+     "drawdown": 0.0
+    },
+    {
+     "date": "2026-09-09",
+     "twr_index": 1.0106659375506075,
+     "drawdown": 0.0
+    },
+    {
+     "date": "2026-09-10",
+     "twr_index": 1.004026427630398,
+     "drawdown": -0.006569440676214566
+    },
+    {
+     "date": "2026-09-11",
+     "twr_index": 1.0123226978680193,
+     "drawdown": 0.0
+    },
+    {
+     "date": "2026-09-14",
+     "twr_index": 1.016724366774192,
+     "drawdown": 0.0
+    },
+    {
+     "date": "2026-09-15",
+     "twr_index": 1.013118876716782,
+     "drawdown": -0.00354618240226634
+    },
+    {
+     "date": "2026-09-16",
+     "twr_index": 1.0158631717888553,
+     "drawdown": -0.0008470289623028204
+    },
+    {
+     "date": "2026-09-17",
+     "twr_index": 1.0139958334220487,
+     "drawdown": -0.002683650988714259
+    },
+    {
+     "date": "2026-09-18",
+     "twr_index": 1.016858631776611,
+     "drawdown": 0.0
+    },
+    {
+     "date": "2026-09-21",
+     "twr_index": 1.0143816556546306,
+     "drawdown": -0.0024359100120464605
+    },
+    {
+     "date": "2026-09-22",
+     "twr_index": 1.0227920796955963,
+     "drawdown": 0.0
+    },
+    {
+     "date": "2026-09-23",
+     "twr_index": 1.0149894475642824,
+     "drawdown": -0.007628756896158273
+    },
+    {
+     "date": "2026-09-24",
+     "twr_index": 1.0254759570923029,
+     "drawdown": 0.0
+    },
+    {
+     "date": "2026-09-25",
+     "twr_index": 1.0305973050147648,
+     "drawdown": 0.0
+    },
+    {
+     "date": "2026-09-28",
+     "twr_index": 1.0270681564268922,
+     "drawdown": -0.0034243720323158255
+    },
+    {
+     "date": "2026-09-29",
+     "twr_index": 1.0295381228379525,
+     "drawdown": -0.001027736218267128
+    },
+    {
+     "date": "2026-09-30",
+     "twr_index": 1.0264184188032766,
+     "drawdown": -0.004054819657643427
+    }
+   ]
+  }
+ }
+}
