@@ -1,0 +1,267 @@
+[
+  {
+    "path": "pershing/pershing_positions_20260831.csv",
+    "delivered_as": "pershing_positions_20260831.csv",
+    "received_at": "2026-09-01T07:15:00"
+  },
+  {
+    "path": "ubs/ubs_positions_20260831.json",
+    "delivered_as": "ubs_positions_20260831.json",
+    "received_at": "2026-09-01T07:40:00"
+  },
+  {
+    "path": "pershing/pershing_positions_20260901.csv",
+    "delivered_as": "pershing_positions_20260901.csv",
+    "received_at": "2026-09-02T07:15:00"
+  },
+  {
+    "path": "ubs/ubs_positions_20260901.json",
+    "delivered_as": "ubs_positions_20260901.json",
+    "received_at": "2026-09-02T07:40:00"
+  },
+  {
+    "path": "pershing/pershing_positions_20260902.csv",
+    "delivered_as": "pershing_positions_20260902.csv",
+    "received_at": "2026-09-03T07:15:00"
+  },
+  {
+    "path": "ubs/ubs_positions_20260902.json",
+    "delivered_as": "ubs_positions_20260902.json",
+    "received_at": "2026-09-03T07:40:00"
+  },
+  {
+    "path": "pershing/pershing_positions_20260903.csv",
+    "delivered_as": "pershing_positions_20260903.csv",
+    "received_at": "2026-09-04T07:15:00"
+  },
+  {
+    "path": "ubs/ubs_positions_20260903.json",
+    "delivered_as": "ubs_positions_20260903.json",
+    "received_at": "2026-09-04T07:40:00"
+  },
+  {
+    "path": "pershing/pershing_positions_20260904.csv",
+    "delivered_as": "pershing_positions_20260904.csv",
+    "received_at": "2026-09-08T07:15:00"
+  },
+  {
+    "path": "ubs/ubs_positions_20260904.json",
+    "delivered_as": "ubs_positions_20260904.json",
+    "received_at": "2026-09-08T07:40:00"
+  },
+  {
+    "path": "pershing/pershing_positions_20260908.csv",
+    "delivered_as": "pershing_positions_20260908.csv",
+    "received_at": "2026-09-09T07:15:00"
+  },
+  {
+    "path": "ubs/ubs_positions_20260908.json",
+    "delivered_as": "ubs_positions_20260908.json",
+    "received_at": "2026-09-09T07:40:00"
+  },
+  {
+    "path": "pershing/pershing_positions_20260909.csv",
+    "delivered_as": "pershing_positions_20260909.csv",
+    "received_at": "2026-09-10T07:15:00"
+  },
+  {
+    "path": "ubs/ubs_positions_20260909.json",
+    "delivered_as": "ubs_positions_20260909.json",
+    "received_at": "2026-09-10T07:40:00"
+  },
+  {
+    "path": "pershing/pershing_positions_20260910.csv",
+    "delivered_as": "pershing_positions_20260910.csv",
+    "received_at": "2026-09-11T07:15:00"
+  },
+  {
+    "path": "ubs/ubs_positions_20260910.json",
+    "delivered_as": "ubs_positions_20260910.json",
+    "received_at": "2026-09-11T07:40:00"
+  },
+  {
+    "path": "pershing/pershing_transactions_20260911.csv",
+    "delivered_as": "pershing_transactions_20260911.csv",
+    "received_at": "2026-09-14T07:10:00"
+  },
+  {
+    "path": "pershing/pershing_positions_20260911.csv",
+    "delivered_as": "pershing_positions_20260911.csv",
+    "received_at": "2026-09-14T07:15:00"
+  },
+  {
+    "path": "ubs/ubs_positions_20260911.json",
+    "delivered_as": "ubs_positions_20260911.json",
+    "received_at": "2026-09-14T07:40:00"
+  },
+  {
+    "path": "pershing/pershing_positions_20260914.csv",
+    "delivered_as": "pershing_positions_20260914.csv",
+    "received_at": "2026-09-15T07:15:00"
+  },
+  {
+    "path": "ubs/ubs_positions_20260914.json",
+    "delivered_as": "ubs_positions_20260914.json",
+    "received_at": "2026-09-15T07:40:00"
+  },
+  {
+    "path": "ubs/ubs_transactions_20260914.json",
+    "delivered_as": "ubs_transactions_20260914.json",
+    "received_at": "2026-09-15T10:12:00"
+  },
+  {
+    "path": "pershing/pershing_transactions_20260915.csv",
+    "delivered_as": "pershing_transactions_20260915.csv",
+    "received_at": "2026-09-16T07:10:00"
+  },
+  {
+    "path": "pershing/pershing_positions_20260915.csv",
+    "delivered_as": "pershing_positions_20260915.csv",
+    "received_at": "2026-09-16T07:15:00"
+  },
+  {
+    "path": "ubs/ubs_transactions_20260915.json",
+    "delivered_as": "ubs_transactions_20260915.json",
+    "received_at": "2026-09-16T07:38:00"
+  },
+  {
+    "path": "ubs/ubs_positions_20260915.json",
+    "delivered_as": "ubs_positions_20260915.json",
+    "received_at": "2026-09-16T07:40:00"
+  },
+  {
+    "path": "pershing/pershing_transactions_20260916.csv",
+    "delivered_as": "pershing_transactions_20260916.csv",
+    "received_at": "2026-09-17T07:10:00"
+  },
+  {
+    "path": "pershing/pershing_positions_20260916.csv",
+    "delivered_as": "pershing_positions_20260916.csv",
+    "received_at": "2026-09-17T07:15:00"
+  },
+  {
+    "path": "ubs/ubs_positions_20260916.json",
+    "delivered_as": "ubs_positions_20260916.json",
+    "received_at": "2026-09-17T07:40:00"
+  },
+  {
+    "path": "pershing/pershing_positions_20260917.csv",
+    "delivered_as": "pershing_positions_20260917.csv",
+    "received_at": "2026-09-18T07:15:00"
+  },
+  {
+    "path": "ubs/ubs_positions_20260917.json",
+    "delivered_as": "ubs_positions_20260917.json",
+    "received_at": "2026-09-18T07:40:00"
+  },
+  {
+    "path": "pershing/pershing_positions_20260918.csv",
+    "delivered_as": "pershing_positions_20260918.csv",
+    "received_at": "2026-09-21T07:15:00"
+  },
+  {
+    "path": "ubs/ubs_positions_20260918.json",
+    "delivered_as": "ubs_positions_20260918.json",
+    "received_at": "2026-09-21T07:40:00"
+  },
+  {
+    "path": "pershing/pershing_positions_20260921.csv",
+    "delivered_as": "pershing_positions_20260921.csv",
+    "received_at": "2026-09-22T07:15:00"
+  },
+  {
+    "path": "ubs/ubs_positions_20260921.json",
+    "delivered_as": "ubs_positions_20260921.json",
+    "received_at": "2026-09-22T07:40:00"
+  },
+  {
+    "path": "pershing/pershing_positions_20260922.csv",
+    "delivered_as": "pershing_positions_20260922.csv",
+    "received_at": "2026-09-23T07:15:00"
+  },
+  {
+    "path": "ubs/ubs_positions_20260922.json",
+    "delivered_as": "ubs_positions_20260922.json",
+    "received_at": "2026-09-23T07:40:00"
+  },
+  {
+    "path": "pershing/pershing_positions_20260923.csv",
+    "delivered_as": "pershing_positions_20260923.csv",
+    "received_at": "2026-09-24T07:15:00"
+  },
+  {
+    "path": "ubs/ubs_positions_20260923.json",
+    "delivered_as": "ubs_positions_20260923.json",
+    "received_at": "2026-09-24T07:40:00"
+  },
+  {
+    "path": "pershing/pershing_positions_20260924.csv",
+    "delivered_as": "pershing_positions_20260924.csv",
+    "received_at": "2026-09-25T07:15:00"
+  },
+  {
+    "path": "ubs/ubs_positions_20260924.json",
+    "delivered_as": "ubs_positions_20260924.json",
+    "received_at": "2026-09-25T07:40:00"
+  },
+  {
+    "path": "pershing/pershing_positions_20260925.csv",
+    "delivered_as": "pershing_positions_20260925.csv",
+    "received_at": "2026-09-28T07:15:00"
+  },
+  {
+    "path": "ubs/ubs_transactions_20260925.json",
+    "delivered_as": "ubs_transactions_20260925.json",
+    "received_at": "2026-09-28T07:38:00"
+  },
+  {
+    "path": "ubs/ubs_positions_20260925.json",
+    "delivered_as": "ubs_positions_20260925.json",
+    "received_at": "2026-09-28T07:40:00"
+  },
+  {
+    "path": "pershing/pershing_positions_20260928.csv",
+    "delivered_as": "pershing_positions_20260928.csv",
+    "received_at": "2026-09-29T07:15:00"
+  },
+  {
+    "path": "ubs/ubs_positions_20260928.json",
+    "delivered_as": "ubs_positions_20260928.json",
+    "received_at": "2026-09-29T07:40:00"
+  },
+  {
+    "path": "pershing/pershing_positions_20260929.csv",
+    "delivered_as": "pershing_positions_20260929.csv",
+    "received_at": "2026-09-30T07:15:00"
+  },
+  {
+    "path": "ubs/ubs_positions_20260929__corrompido.json",
+    "delivered_as": "ubs_positions_20260929.json",
+    "received_at": "2026-09-30T07:39:00"
+  },
+  {
+    "path": "ubs/ubs_positions_20260929.json",
+    "delivered_as": "ubs_positions_20260929.json",
+    "received_at": "2026-09-30T08:05:00"
+  },
+  {
+    "path": "pershing/pershing_positions_20260930.csv",
+    "delivered_as": "pershing_positions_20260930.csv",
+    "received_at": "2026-10-01T07:15:00"
+  },
+  {
+    "path": "pershing/pershing_positions_20260930.csv",
+    "delivered_as": "pershing_positions_20260930.csv",
+    "received_at": "2026-10-01T07:16:00"
+  },
+  {
+    "path": "ubs/ubs_transactions_20260930.json",
+    "delivered_as": "ubs_transactions_20260930.json",
+    "received_at": "2026-10-01T07:38:00"
+  },
+  {
+    "path": "ubs/ubs_positions_20260930.json",
+    "delivered_as": "ubs_positions_20260930.json",
+    "received_at": "2026-10-01T07:40:00"
+  }
+]

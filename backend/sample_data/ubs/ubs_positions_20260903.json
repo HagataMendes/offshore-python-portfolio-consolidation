@@ -1,0 +1,71 @@
+{
+  "custodian": "UBS",
+  "fileType": "POSITIONS",
+  "asOf": "2026-09-03",
+  "portfolios": [
+    {
+      "accountId": "CH-88.1042.01",
+      "holdings": [
+        {
+          "isin": "XS0000000011",
+          "description": "EUR CORP 3.25% 2029",
+          "assetClass": "BOND",
+          "units": "50000",
+          "px": "97.61",
+          "priceUnit": "PERCENT",
+          "currency": "EUR"
+        },
+        {
+          "isin": null,
+          "description": "CASH EUR",
+          "assetClass": "CASH",
+          "units": "3215.00",
+          "px": "1",
+          "priceUnit": "UNIT",
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "accountId": "CH-88.1077.02",
+      "holdings": [
+        {
+          "isin": "US0000000029",
+          "description": "US T-NOTE 4.125% 2030",
+          "assetClass": "BOND",
+          "units": "150000",
+          "px": "99.55",
+          "priceUnit": "PERCENT",
+          "currency": "USD"
+        },
+        {
+          "isin": "US0000000037",
+          "description": "USD CORP 5% 2028",
+          "assetClass": "BOND",
+          "units": "25000",
+          "px": "101.15",
+          "priceUnit": "PERCENT",
+          "currency": "USD"
+        },
+        {
+          "isin": "US5949181045",
+          "description": "MICROSOFT CORP",
+          "assetClass": "EQUITY",
+          "units": "60",
+          "px": "406.02",
+          "priceUnit": "UNIT",
+          "currency": "USD"
+        },
+        {
+          "isin": null,
+          "description": "CASH USD",
+          "assetClass": "CASH",
+          "units": "6527.20",
+          "px": "1",
+          "priceUnit": "UNIT",
+          "currency": "USD"
+        }
+      ]
+    }
+  ]
+}

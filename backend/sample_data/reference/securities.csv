@@ -1,0 +1,7 @@
+isin,ticker,name,asset_class
+US0378331005,AAPL,Apple Inc.,renda_variavel
+US9229083632,VOO,Vanguard S&P 500 ETF,renda_variavel
+US5949181045,MSFT,Microsoft Corp.,renda_variavel
+XS0000000011,,"Título corporativo EUR 3,25% 2029",renda_fixa
+US0000000029,,"T-Note EUA 4,125% 2030",renda_fixa
+US0000000037,,Título corporativo USD 5% 2028,renda_fixa

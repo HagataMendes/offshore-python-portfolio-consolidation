@@ -1,0 +1,37 @@
+{
+  "custodian": "UBS",
+  "fileType": "TRANSACTIONS",
+  "asOf": "2026-09-30",
+  "portfolios": [
+    {
+      "accountId": "CH-88.1042.01",
+      "movements": [
+        {
+          "ref": "42093001",
+          "valueDate": "2026-09-30",
+          "kind": "CUSTODY_FEE",
+          "isin": null,
+          "units": "0",
+          "px": null,
+          "amount": "-15.00",
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "accountId": "CH-88.1077.02",
+      "movements": [
+        {
+          "ref": "77093001",
+          "valueDate": "2026-09-30",
+          "kind": "CUSTODY_FEE",
+          "isin": null,
+          "units": "0",
+          "px": null,
+          "amount": "-20.00",
+          "currency": "USD"
+        }
+      ]
+    }
+  ]
+}

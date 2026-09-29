@@ -1,0 +1,22 @@
+{
+  "custodian": "UBS",
+  "fileType": "TRANSACTIONS",
+  "asOf": "2026-09-25",
+  "portfolios": [
+    {
+      "accountId": "CH-88.1077.02",
+      "movements": [
+        {
+          "ref": "77092501",
+          "valueDate": "2026-09-25",
+          "kind": "DIVIDEND",
+          "isin": "US5949181045",
+          "units": "60",
+          "px": "0.83",
+          "amount": "49.80",
+          "currency": "USD"
+        }
+      ]
+    }
+  ]
+}

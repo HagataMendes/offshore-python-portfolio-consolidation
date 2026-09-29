@@ -1,0 +1,22 @@
+{
+  "custodian": "UBS",
+  "fileType": "TRANSACTIONS",
+  "asOf": "2026-09-14",
+  "portfolios": [
+    {
+      "accountId": "CH-88.1077.02",
+      "movements": [
+        {
+          "ref": "77091401",
+          "valueDate": "2026-09-14",
+          "kind": "SECURITY_SALE",
+          "isin": "US0000000029",
+          "units": "60000",
+          "px": "99.63",
+          "amount": "59778.00",
+          "currency": "USD"
+        }
+      ]
+    }
+  ]
+}

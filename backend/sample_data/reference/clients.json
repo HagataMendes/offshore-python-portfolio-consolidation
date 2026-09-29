@@ -1,0 +1,22 @@
+[
+  {
+    "id": "maria",
+    "name": "Maria",
+    "full_name": "Maria Albuquerque",
+    "account": "OFF-20417-3",
+    "risk_profile": "Moderado",
+    "advisor": "Rafael Toledo",
+    "base_currency": "USD",
+    "custodian_accounts": { "Pershing": "4PX-100231", "UBS": "CH-88.1042.01" }
+  },
+  {
+    "id": "manoel",
+    "name": "Manoel",
+    "full_name": "Manoel Siqueira",
+    "account": "OFF-31092-8",
+    "risk_profile": "Conservador",
+    "advisor": "Rafael Toledo",
+    "base_currency": "USD",
+    "custodian_accounts": { "UBS": "CH-88.1077.02" }
+  }
+]

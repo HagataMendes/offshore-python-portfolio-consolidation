@@ -1,0 +1,22 @@
+{
+  "custodian": "UBS",
+  "fileType": "TRANSACTIONS",
+  "asOf": "2026-09-15",
+  "portfolios": [
+    {
+      "accountId": "CH-88.1077.02",
+      "movements": [
+        {
+          "ref": "77091501",
+          "valueDate": "2026-09-15",
+          "kind": "CASH_WITHDRAWAL",
+          "isin": null,
+          "units": "0",
+          "px": null,
+          "amount": "-60000.00",
+          "currency": "USD"
+        }
+      ]
+    }
+  ]
+}
